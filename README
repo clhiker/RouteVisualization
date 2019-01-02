@@ -1,0 +1,19 @@
+随着新年的临近，学子们和在外务工人员又迎来了一年一度的返乡热潮，因此选择方便快捷的出行方式成为人们急需解决的问题。飞机逐渐成为了人们在交通方面不可缺少的交通工具，乘坐飞机出行的人越来越多，所以飞机的客运量也在迅速增加。同时，乘客对实时查询飞机航班和飞机票剩余量的要求也越来越强，但是现在的飞机票查询系统都是通过查询两点之间的航班信息和通过数字显示机票剩余量，所以我们小组开发了通过python爬取机票的相关信息，然后通过可视化的形式动态的展现出来。这个项目对于某城市飞行的便利情况有着现实的研究意义，同时，对于人们的出行也会有很大的帮助，可以在出行前查看航班航线，选择合适的出行时间与出行城市。
+
+环境依赖：
+python3
+python依赖库
+echarts-china-cities-pypkg	
+echarts-china-counties-pypkg	
+echarts-china-misc-pypkg	
+echarts-china-provinces-pypkg	
+echarts-countries-pypkg
+requests
+BeautifulSoup4
+pyecharts(0.5.11)
+flask
+
+运行src文件夹中的
+python server.py
+访问浏览器网址：http://localhost:5000/
+浏览器刷新过程中可能会有缓存，可以多刷新几次
